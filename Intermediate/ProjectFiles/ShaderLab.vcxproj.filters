@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ShaderLab.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C2EDE08D-26FC-473B-BAFD-E39168F27EC4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShaderLab.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShaderLabEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C07FE3A8-BBB2-4F8D-8963-6A9ED121DCE8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ShaderLab">
+      <UniqueIdentifier>{8B5E8C59-B1A3-47CA-9B73-5D5B03228E8B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShaderLab\ShaderLab.Build.cs">
+      <Filter>Source\ShaderLab</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ShaderLab\ShaderLab.cpp">
+      <Filter>Source\ShaderLab</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShaderLab\ShaderLab.h">
+      <Filter>Source\ShaderLab</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShaderLab\ShaderLabGameModeBase.cpp">
+      <Filter>Source\ShaderLab</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShaderLab\ShaderLabGameModeBase.h">
+      <Filter>Source\ShaderLab</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
